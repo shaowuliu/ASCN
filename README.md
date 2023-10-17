@@ -1,6 +1,7 @@
 This is the code of the paper "ACSN: Attention Capsule Sampling Network for Diagnosing COVID-19 based on Chest CT Scans"
 
 python environment:
+
 	python == 3.6
 	h5py == 2.10.0
 	hdf5 == 1.10.6
@@ -10,7 +11,7 @@ python environment:
 	scikit-image == 0.17.2
 	scikit-learn ==  0.22.1
 	torch == 1.10.2 
-
+ 
 model parameter:
 	This weights-2class-v1-71.h5 is the pre-training parameter of the model in the feature extraction stage, and this two623_108_noweight_model.h5 is the pre-training parameter of the weighted extraction and fusion sampling part.
 
